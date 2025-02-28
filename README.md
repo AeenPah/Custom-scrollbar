@@ -14,5 +14,5 @@ Now, we have a **custom scrollbar that plays by MY rules!** 🎉
 
 Enjoy smooth scrolling, my friend. 🚀  
 
-And this sandbox:
+And this is sandbox:
 https://codesandbox.io/p/sandbox/stupefied-worker-lykvmy

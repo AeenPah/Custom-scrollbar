@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.scrollContainerFlex {
+  display: flex;
+}
+
+.scrollContainer {
+  height: 500px;
+  width: 400px;
+  border-radius: 15px;
+  border: 2px solid black;
+  padding: 20px;
+  overflow: auto;
+}
+.scrollContainer {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.scrollContainer::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.item {
+  display: flex;
+  background-color: lightblue;
+  height: 50px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.customScrollbar {
+  height: 500px;
+  width: 25px;
+  margin-left: 20px;
+  border-radius: 20px;
+  position: relative;
+  background-color: rgb(252, 194, 171);
+}
+.scrollbarThumb {
+  height: 50px;
+  width: 25px;
+  background-color: rgb(255, 116, 62);
+  position: absolute;
+  border-radius: 20px;
+  cursor: pointer;
+}
